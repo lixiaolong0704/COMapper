@@ -39,8 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ConfigLoader.cs" />
+    <Compile Include="ControlHelper.cs" />
+    <Compile Include="Converters\BaseConverter.cs" />
+    <Compile Include="Converters\CConverter.cs" />
+    <Compile Include="CustomGridData.cs" />
+    <Compile Include="CustomGridLookUpEditHelper.cs" />
+    <Compile Include="Entity\BindConfig.cs" />
+    <Compile Include="Entity\Map.cs" />
+    <Compile Include="Entity\Maps.cs" />
+    <Compile Include="Entity\MapWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\XmlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configs\emsdetail.xml" />
+    <Content Include="Configs\template.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

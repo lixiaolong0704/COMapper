@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Maps Id="template">
+    <!--账册H2000备案号-->
+    <Map CTL="EmsNo" PROP="ManualH2000ID" />
+    <!--账册物流平台备案号-->
+    <Map CTL="EmsECINo" PROP="ManualID" />
+    <!--所属企业海关编码-->
+    <Map CTL="EmsCustomsCode" PROP="CorporationCode" />
+    <!--经营单位-->
+    <Map CTL="TradeCode" PROP="CorporationName" />
+    <!--收发货单位-->
+    <Map CTL="OwnerCode" PROP="CorporationName" />
+  </Maps>
+</BindConfig>

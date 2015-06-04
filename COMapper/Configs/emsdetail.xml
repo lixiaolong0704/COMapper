@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Maps Id="template">
+ 
+    <!--<Map CTL="OriginCode"  Ignore="True"/>-->
+    
+    <Map CTL="OriginCode" CTL_PROP="Text" PROP="OriginName" />
+    <Map CTL="OriginCode" CTL_PROP="EditValue" PROP="OriginCode" />
+    
+    <Map CTL="Use"  CTL_PROP="EditValue"  PROP="UseCode" />
+    <Map CTL="Use"  CTL_PROP="Text"  PROP="UseName" />
+
+    <Map CTL="DutyMode"  CTL_PROP="EditValue"  PROP="DutyMode" />
+    <Map CTL="DutyMode"  CTL_PROP="Text" Converter="" PROP="DutyModeName" />
+
+    
+    <Map CTL="GoodNature"  CTL_PROP="EditValue"  PROP="GoodsNature" />
+    <Map CTL="GoodNature"  CTL_PROP="Text"  PROP="GoodsNatureName" />
+
+
+    <Map CTL="FirstUnit"  CTL_PROP="EditValue"  PROP="FirstUnit" />
+    <Map CTL="FirstUnit"  CTL_PROP="Text"  PROP="FirUnitName" />
+
+
+    <Map CTL="SecondUnit"  CTL_PROP="EditValue"  PROP="SecondUnit" />
+    <Map CTL="SecondUnit"  CTL_PROP="Text"  PROP="SecondUnitName" />
+
+
+    <Map CTL="QuantityUnit"  CTL_PROP="EditValue"  PROP="QuantityUnit" />
+    <Map CTL="QuantityUnit"  CTL_PROP="Text"  PROP="QuantityUnitName" />
+
+
+    <Map CTL="Currency"  CTL_PROP="EditValue"  PROP="Currency" />
+    <Map CTL="Currency"  CTL_PROP="Text"  PROP="CurrencyName" />
+    
+    <Map CTL="GoodsMaterialNo" PROP="MaterialNo" />
+  
+   
+  </Maps>
+</BindConfig>
