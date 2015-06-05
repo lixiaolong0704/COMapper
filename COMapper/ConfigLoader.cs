@@ -10,11 +10,11 @@ namespace COMapper
         public string Path { get; set; }
         public BindConfig Config { get; set; }
     }
-    public static class ConfigLoader
+    internal static class ConfigLoader
     {
         private static Dictionary<string, BindConfigWrap> pathMaps = new Dictionary<string, BindConfigWrap>();
 
-        private static void AddPath(string key,string path)
+        public static void RegisterConfigPath(string key,string path)
         {
             pathMaps.Add(key, new BindConfigWrap()
             {
@@ -24,8 +24,7 @@ namespace COMapper
         static ConfigLoader()
         {
 
-            AddPath("EMSinfoHeader", @"Util\ControlMapper\Configs\template.xml");
-            AddPath("emsdetail", @"Util\ControlMapper\Configs\emsdetail.xml");
+       
         }
 
         public static BindConfig GetConfig(string key)

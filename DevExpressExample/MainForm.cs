@@ -5,8 +5,11 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using DevComponents.DotNetBar;
-using DevExpressSupport;
+using COMapper;
+using COMapper.DevExpressSupport;
+using COMapper.DevExpressSupport.Sups;
+using DevExpress.Utils.Extensions;
+using DevExpressExample.COMapper.Converters;
 
 namespace DevExpressExample
 {
@@ -15,13 +18,28 @@ namespace DevExpressExample
         public MainForm()
         {
             InitializeComponent();
+            COGlobal.RegisterConfigPath("EMSinfoHeader", @"COMapper\Configs\template.xml");
+            COGlobal.RegisterConfigPath("emsdetail", @"COMapper\Configs\emsdetail.xml");
+            COGlobal.Supports = new List<BaseSupport>()
+            {
+                //new SupCustomGridLookUpEdit(),
+                new SupLookUpEdit(),
+                new SupTextEdit(new TestConverter())
+            };
         }
-
+        MainFormModel mModel = new MainFormModel();
         private void btnSave_Click(object sender, EventArgs e)
         {
-            MainFormModel mModel=new MainFormModel();
-            ObjectHelper.SetPropertiesByControl(this.pc, mModel);
+
+            DevExpressCOMapper.SetPropertiesByControl(this.pc, mModel);
             MessageBox.Show(mModel.UserName);
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
+
+  
 }

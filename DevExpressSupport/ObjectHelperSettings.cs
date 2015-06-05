@@ -1,4 +1,4 @@
-﻿namespace DevExpressSupport
+﻿namespace COMapper.DevExpressSupport
 {
     public  class ObjectHelperSettings
     {

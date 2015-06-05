@@ -7,8 +7,8 @@
     <ProjectGuid>{3F7BD9F0-647C-4901-93A6-ADE09E1345D2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DevExpressSupport</RootNamespace>
-    <AssemblyName>DevExpressSupport</AssemblyName>
+    <RootNamespace>COMapper.DevExpressSupport</RootNamespace>
+    <AssemblyName>COMapper.DevExpressSupport</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -36,6 +36,7 @@
     <Reference Include="DevExpress.Utils.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -49,18 +50,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseSupport.cs" />
     <Compile Include="Converters\CustomGridLookUpEditDefaultConverter.cs" />
     <Compile Include="Converters\CustomGridLookUpEditEditValueConverter.cs" />
-    <Compile Include="Converters\TestConverter.cs" />
     <Compile Include="Converters\TextEditDefaultConverter.cs" />
-    <Compile Include="ObjectHelper.cs" />
+    <Compile Include="DevExpressCOMapper.cs" />
     <Compile Include="ObjectHelperSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SupCheckedListBoxControl.cs" />
-    <Compile Include="SupCustomGridLookUpEdit.cs" />
-    <Compile Include="SupLookUpEdit.cs" />
-    <Compile Include="SupTextEdit.cs" />
+    <Compile Include="Sups\SupCheckedListBoxControl.cs" />
+    <Compile Include="Sups\SupCustomGridLookUpEdit.cs" />
+    <Compile Include="Sups\SupLookUpEdit.cs" />
+    <Compile Include="Sups\SupTextEdit.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\COMapper\COMapper.csproj">

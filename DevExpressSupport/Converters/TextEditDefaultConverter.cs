@@ -1,7 +1,7 @@
 ﻿using COMapper.Converters;
 using DevExpress.XtraEditors;
 
-namespace DevExpressSupport.Converters
+namespace COMapper.DevExpressSupport.Converters
 {
     public class TextEditDefaultConverter:BaseConverter
     {

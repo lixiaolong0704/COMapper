@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="COMapper\Converters\TestConverter.cs" />
     <Compile Include="MainFormModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,10 +90,19 @@
       <Project>{f0164b85-c43e-44f9-9ab1-953751a733f4}</Project>
       <Name>COMapper</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DevExpressSupport\DevExpressSupport.csproj">
+    <ProjectReference Include="..\DevExpressSupport\COMapper.DevExpressSupport.csproj">
       <Project>{3F7BD9F0-647C-4901-93A6-ADE09E1345D2}</Project>
-      <Name>DevExpressSupport</Name>
+      <Name>COMapper.DevExpressSupport</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="COMapper\Configs\emsdetail.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="COMapper\Configs\template.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

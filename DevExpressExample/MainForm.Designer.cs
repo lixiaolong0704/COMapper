@@ -68,6 +68,7 @@ namespace DevExpressExample
             this.Controls.Add(this.btnSave);
             this.Name = "MainForm";
             this.Text = "RibbonForm1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UserName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pc)).EndInit();
             this.pc.ResumeLayout(false);

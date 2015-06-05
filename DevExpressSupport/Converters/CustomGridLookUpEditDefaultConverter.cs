@@ -1,6 +1,6 @@
 ﻿using COMapper.Converters;
 
-namespace DevExpressSupport.Converters
+namespace COMapper.DevExpressSupport.Converters
 {
     public class CustomGridLookUpEditDefaultConverter : BaseConverter
     {
