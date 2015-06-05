@@ -48,25 +48,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converters\CustomGridLookUpEditDefaultConverter.cs" />
-    <Compile Include="Converters\CustomGridLookUpEditEditValueConverter.cs" />
+    <Compile Include="Converters\GridLookUpEditDefaultConverter.cs" />
+    <Compile Include="Converters\GridLookUpEditEditValueConverter.cs" />
     <Compile Include="Converters\TextEditDefaultConverter.cs" />
     <Compile Include="DevExpressCOMapper.cs" />
     <Compile Include="ObjectHelperSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sups\SupCheckedListBoxControl.cs" />
-    <Compile Include="Sups\SupCustomGridLookUpEdit.cs" />
+    <Compile Include="Sups\SupGridLookUpEdit.cs" />
     <Compile Include="Sups\SupLookUpEdit.cs" />
     <Compile Include="Sups\SupTextEdit.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\COMapper\COMapper.csproj">
-      <Project>{f0164b85-c43e-44f9-9ab1-953751a733f4}</Project>
-      <Name>COMapper</Name>
-    </ProjectReference>
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Properties\licenses.licx" />
+    <ProjectReference Include="..\COMapper.Core\COMapper.Core.csproj">
+      <Project>{F0164B85-C43E-44F9-9AB1-953751A733F4}</Project>
+      <Name>COMapper.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

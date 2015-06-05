@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace COMapper.Entity
+namespace COMapper.Core.Entity
 {
     public class Map
     {

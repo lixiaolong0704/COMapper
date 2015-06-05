@@ -38,6 +38,9 @@
     <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
@@ -52,7 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="COMapper\Converters\TestConverter.cs" />
+    <Compile Include="COMapperEx\Converters\TestConverter.cs" />
     <Compile Include="MainFormModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,21 +89,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\COMapper\COMapper.csproj">
-      <Project>{f0164b85-c43e-44f9-9ab1-953751a733f4}</Project>
-      <Name>COMapper</Name>
+    <ProjectReference Include="..\COMapper.Core\COMapper.Core.csproj">
+      <Project>{F0164B85-C43E-44F9-9AB1-953751A733F4}</Project>
+      <Name>COMapper.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DevExpressSupport\COMapper.DevExpressSupport.csproj">
+    <ProjectReference Include="..\COMapper.DevExpressSupport\COMapper.DevExpressSupport.csproj">
       <Project>{3F7BD9F0-647C-4901-93A6-ADE09E1345D2}</Project>
       <Name>COMapper.DevExpressSupport</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="COMapper\Configs\emsdetail.xml">
+    <Content Include="COMapperEx\Configs\emsdetail.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="COMapper\Configs\template.xml">
+    <Content Include="COMapperEx\Configs\template.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -1,11 +1,12 @@
 ﻿using System;
 
-namespace COMapper.Converters
+namespace COMapper.Core.Converters
 {
     public static class CConverter
     {
         public static object ChangeType(object s,Type targetType)
         {
+           
             if (targetType == typeof (string))
             {
                 if (s == null)
@@ -16,7 +17,7 @@ namespace COMapper.Converters
                 {
                     return s.ToString();
                 }
-              
+
             }
             else
             {
@@ -28,8 +29,10 @@ namespace COMapper.Converters
                 {
                     return Convert.ChangeType(s, targetType);
                 }
- 
+
             }
+        
+            
            
         }
     }

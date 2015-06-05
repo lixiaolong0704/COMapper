@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
-namespace COMapper.Utility
+namespace COMapper.Core.Utility
 {
     /// <summary>
     /// Xml操作的辅助类

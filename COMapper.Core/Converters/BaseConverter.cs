@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace COMapper.Converters
+namespace COMapper.Core.Converters
 {
     public interface BaseConverter
     {

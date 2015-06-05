@@ -1,7 +1,7 @@
 ﻿using System;
-using COMapper.Entity;
+using COMapper.Core.Entity;
 
-namespace COMapper
+namespace COMapper.Core
 {
     public static class ObjectHelper
     {

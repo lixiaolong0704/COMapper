@@ -1,4 +1,4 @@
-﻿using COMapper.Converters;
+﻿using COMapper.Core.Converters;
 using DevExpress.XtraEditors;
 
 namespace COMapper.DevExpressSupport.Converters

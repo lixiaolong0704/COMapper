@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
-using COMapper.Converters;
+using COMapper.Core.Converters;
 
-namespace COMapper.Entity
+namespace COMapper.Core.Entity
 {
     public class MapWrapper
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using COMapper.Converters;
-using COMapper.Entity;
+using COMapper.Core.Converters;
+using COMapper.Core.Entity;
 
-namespace COMapper
+namespace COMapper.Core
 {
     public abstract class BaseSupport
     {

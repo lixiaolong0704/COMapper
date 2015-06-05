@@ -1,4 +1,4 @@
-﻿namespace COMapper.Entity
+﻿namespace COMapper.Core.Entity
 {
     //[XmlRoot(ElementName = "MyClass")]
     public class BindConfig

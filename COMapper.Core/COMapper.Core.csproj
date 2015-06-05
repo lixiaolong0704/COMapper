@@ -7,8 +7,8 @@
     <ProjectGuid>{F0164B85-C43E-44F9-9AB1-953751A733F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>COMapper</RootNamespace>
-    <AssemblyName>COMapper</AssemblyName>
+    <RootNamespace>COMapper.Core</RootNamespace>
+    <AssemblyName>COMapper.Core</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

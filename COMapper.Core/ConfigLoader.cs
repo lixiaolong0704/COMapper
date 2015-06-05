@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using COMapper.Entity;
-using COMapper.Utility;
+using COMapper.Core.Entity;
+using COMapper.Core.Utility;
 
-namespace COMapper
+namespace COMapper.Core
 {
     public class BindConfigWrap
     {

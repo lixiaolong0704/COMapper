@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using COMapper.Entity;
+﻿using System.Collections.Generic;
+using COMapper.Core.Entity;
 
-namespace COMapper
+namespace COMapper.Core
 {
     public class COGlobal
     {

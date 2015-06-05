@@ -1,9 +1,9 @@
-﻿using COMapper.Converters;
+﻿using COMapper.Core.Converters;
 using DevExpress.XtraEditors;
 
 namespace COMapper.DevExpressSupport.Converters
 {
-    public class CustomGridLookUpEditEditValueConverter:BaseConverter
+    public class GridLookUpEditEditValueConverter:BaseConverter
     {
         public void SetCtlPropByObjProp(System.Reflection.PropertyInfo objProp, object obj, object ctl)
         {

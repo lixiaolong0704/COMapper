@@ -9,5 +9,9 @@ namespace DevExpressExample
     {
         public string UserName { get; set; }
         public string Password { get; set; }
+
+        public int AreaCode { get; set; }
+
+        public string AreaName { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
-using COMapper.Entity;
+using COMapper.Core;
+using COMapper.Core.Entity;
 using DevExpress.Utils.Extensions;
 using DevExpress.XtraEditors;
 

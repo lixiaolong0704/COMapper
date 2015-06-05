@@ -1,8 +1,7 @@
-﻿using System;
-using COMapper.Converters;
+﻿using COMapper.Core.Converters;
 using DevExpress.XtraEditors;
 
-namespace DevExpressExample.COMapper.Converters
+namespace DevExpressExample.COMapperEx.Converters
 {
     public class TestConverter : BaseConverter
     {

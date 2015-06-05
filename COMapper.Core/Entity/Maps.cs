@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace COMapper.Entity
+namespace COMapper.Core.Entity
 {
     [XmlType("Maps")]
     public class Maps 
