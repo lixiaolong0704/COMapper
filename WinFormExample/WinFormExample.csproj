@@ -74,6 +74,16 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\COMapper.Core\COMapper.Core.csproj">
+      <Project>{F0164B85-C43E-44F9-9AB1-953751A733F4}</Project>
+      <Name>COMapper.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\COMapper.WinFormSupport\COMapper.WinFormSupport.csproj">
+      <Project>{441861DC-1FD6-4F02-B095-38E418113C25}</Project>
+      <Name>COMapper.WinFormSupport</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
