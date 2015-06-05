@@ -1,5 +1,5 @@
 # COMapper
-WINFORM和DEVEXPRESS控件和实体对象绑定框架
+WINFORM和DEVEXPRESS控件和实体对象绑定框架 .net 4.0
 
 在.net WPF中使用了MVVM模式， 并且使用各种数据绑定。
 
